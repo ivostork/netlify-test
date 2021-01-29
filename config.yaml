@@ -5,7 +5,7 @@ title: Ivo Stork - Research & Webdesign
 theme: cupper-hugo-theme
 # googleAnalytics: UA-123456789-1
 # disqusShortname: yourdiscussshortname
-# enableGitInfo: true
+enableGitInfo: false
 
 taxonomies:
   tag: tags
@@ -19,12 +19,12 @@ imaging:
 params:
   # description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
   homeMetaContent: Custom tailored websites.
-  # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Ivo Stork - ivos.stork@gmail.com -  +420 728 641 141 -  www.linkedin.com/in/ivo-stork/ 
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   # codePenUser: someUser
   katex: false
-  hideHeaderLinks: false
+  hideHeaderLinks: true
   search: false
   showThemeSwitcher: false
   moveFooterToHeader: false

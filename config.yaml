@@ -23,10 +23,10 @@ params:
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   # codePenUser: someUser
-  # katex: true
+  katex: false
   hideHeaderLinks: false
-  # search: true
-  # showThemeSwitcher: true
+  search: false
+  showThemeSwitcher: false
   moveFooterToHeader: false
   customCss:
     - css/custom_01.css
@@ -41,18 +41,18 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
-      weight: 2
-    - name: Tags
-      url: /tags/
-      weight: 3
+    # - name: Blog
+    #   url: /post/
+    #   weight: 2
+    # - name: Tags
+    #   url: /tags/
+    #   weight: 3
     - name: About
       url: /about/
-      weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
+      weight: 2
+    # - name: RSS
+    #   url: /index.xml
+    #   weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark

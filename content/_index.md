@@ -3,12 +3,12 @@ date: "2017-06-26T18:27:58+01:00"
 title: "Home"
 ---
 
-Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
+I design custom tailored websites aligned with client's business. This is my webdesign process:
 
 {{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-* Numerous shortcodes
-* Toggleable dark theme
-* Toggleable table of contents per blog post
+* Interviews with client and other stakeholders
+* Interviews with client's customers
+* Delivering custom tailored website
 {{< /ticks >}}
+
+<a href="/free-web-audit/" class="CTA"> Request a free website audit </a>

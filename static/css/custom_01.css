@@ -1,10 +1,11 @@
 .CTA{
     display: inline-block;
     padding:21px 24px;
-    background:#000000;
-    color:#ffffff;
+    background:#facac0;
+    color:#000000;
     text-decoration: none;
     border-radius: 8px;
+    border: none;
 
     font-size:1rem;
 }

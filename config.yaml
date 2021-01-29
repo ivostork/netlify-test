@@ -10,30 +10,31 @@ theme: cupper-hugo-theme
 taxonomies:
   tag: tags
 
-permalinks:
-  post: /:filename/
+# permalinks:
+#   post: /:filename/
 
 imaging:
   quality: 99
 
 params:
   # description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  homeMetaContent: Custom tailored websites.
+  # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
+  # codePenUser: someUser
+  # katex: true
   hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
+  # search: true
+  # showThemeSwitcher: true
   moveFooterToHeader: false
   customCss:
     - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
+    # - css/custom_02.css
+  
+  # customJs:
+    # - js/custom_01.js
+    # - js/custom_02.js
 
 menu:
   nav:

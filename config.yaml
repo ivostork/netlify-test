@@ -3,13 +3,13 @@ languageCode: en-us
 defaultContentLanguage: en
 title: Ivo Stork - Research & Webdesign
 theme: cupper-hugo-theme
-googleAnalytics: UA-188424174-1
+# googleAnalytics: UA-188424174-1
 # disqusShortname: yourdiscussshortname
 enableGitInfo: false
 enableRobotsTXT: true
 
-taxonomies:
-  tag: tags
+# taxonomies:
+#   tag: tags
 
 # permalinks:
 #   post: /:filename/
@@ -42,21 +42,12 @@ menu:
     - name: Home
       url: /
       weight: 1
-    # - name: Blog
-    #   url: /post/
-    #   weight: 2
-    # - name: Tags
-    #   url: /tags/
-    #   weight: 3
     - name: Free website audit
       url: /free-web-audit/
       weight: 2
     - name: Contact
       url: /contact/
       weight: 3
-    # - name: RSS
-    #   url: /index.xml
-    #   weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark

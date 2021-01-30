@@ -30,11 +30,6 @@ params:
   moveFooterToHeader: false
   customCss:
     - css/custom_01.css
-    # - css/custom_02.css
-  
-  # customJs:
-    # - js/custom_01.js
-    # - js/custom_02.js
 
 menu:
   nav:

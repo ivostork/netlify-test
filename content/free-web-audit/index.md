@@ -13,7 +13,10 @@ How do you reach potential customers using your website? I will check for you:
 
 **Get in touch and I will send you a free report with audit results**
 
-<form name="contact" method="POST" data-netlify="true" action="/success/index.html" class="form">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success/index.html" class="form">
+  <p class="hidden">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
   <div class="form__item">
     <label for="name">Name</label>   
     <input type="text" name="name" id="name" required />

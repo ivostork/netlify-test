@@ -17,20 +17,17 @@ How do you reach potential customers using your website? I will check for you:
   <p class="hidden">
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
   </p>
-  <div class="form__item">
-    <label for="name">Name</label>   
-    <input type="text" name="name" id="name" required />
+
+   <div class="form__item">
+    <label for="url">Your website URL</label>   
+    <input type="text" name="url" id="url" required/>
   </div>
-  
+
   <div class="form__item"> 
-    <label for="email">Email</label>   
+    <label for="email">Enter your email to recieve a free audit report</label>   
     <input type="email" name="email" id="email" required />
   </div>
 
-   <div class="form__item">
-    <label for="url">Your web address</label>   
-    <input type="text" name="url" id="url" required/>
-  </div>
   <div class="form__item">
     <button type="submit" class="CTA">Send me a request</button>
   </div>
